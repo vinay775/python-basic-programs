@@ -1,0 +1,17 @@
+def binarysearch(arr,n,key):
+    l=0
+    u=n-1
+    while(l<=u):
+        mid=(l+u)//2
+        if(key==arr[mid]):
+            return mid+1
+        elif(key<arr[mid]):
+            u=mid-1
+        elif(key>arr[mid]):
+            l=mid+1
+    return -1
+print(binarysearch([10,20,30,40,50],5,30))    
+    
+    
+    
+    
