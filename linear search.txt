@@ -1,0 +1,8 @@
+l=[10,20,30,40,50,60]
+k=int(input("Enter the value:"))
+for i in range(0,len(l)):
+    if l[i]==k:
+        print("element found at position",i+1)
+        break
+else:
+    print("no element in list ")
