@@ -1,0 +1,25 @@
+ls=[10,20,30,20]
+
+print(ls)
+
+#append()
+#insert()
+#pop()
+#remove()
+#clear()
+
+ls.append(50)
+print(ls)
+
+ls.insert(2,70)
+print(ls)
+# for inserting in list if specified position is not present in list it won't produce any error but appends at end
+#pop()--removes at end
+
+
+
+print(ls)
+
+
+ls.clear()
+print(ls)
