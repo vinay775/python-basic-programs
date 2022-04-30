@@ -1,0 +1,10 @@
+s=input("Enter the string:")
+x=''
+for i in s:
+    if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u'):
+        continue
+    else:
+        x=x+i
+        
+print(x)
+        
