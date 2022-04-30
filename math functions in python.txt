@@ -1,0 +1,24 @@
+import math
+
+print(abs(5.2))
+print(abs(-6))
+#round()
+print(round (3.452148,3))
+#ceil()
+print(math.ceil(4.6))
+#floor()
+print(math.floor(5.2))
+
+print(math.trunc(4.5))
+
+#expotential
+print(math.exp(4))
+
+#sqrt
+print(math.sqrt(25))
+
+#log
+print(math.log10(10))
+
+#power
+print(math.pow(2,4))
